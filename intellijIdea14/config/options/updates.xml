@@ -1,8 +1,0 @@
-<application>
-  <component name="UpdatesConfigurable">
-    <outdatedPlugins>
-      <item value="IdeaVIM" />
-      <item value="com.jetbrains.php" />
-    </outdatedPlugins>
-  </component>
-</application>
