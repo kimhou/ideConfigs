@@ -21,7 +21,7 @@ echo "start copy preferences";
 mkdir ${preferenceBackDir}
 sudo mv -f "${preferenceDir}"/* "${preferenceBackDir}"/;
 if [ -f "${preferenceBackDir}"/idea14.key ]; then
-sudo cp "${preferenceBackDir}"/idea14.key "${preferenceDir}"/
+sudo cp -r -f "${preferenceBackDir}"/idea14.key "${preferenceDir}"/
 fi
 sudo cp -r -f "${gitPreferenceDir}"/* "${preferenceDir}"/;
 sudo chown -R `whoami` "${preferenceDir}"/*;
