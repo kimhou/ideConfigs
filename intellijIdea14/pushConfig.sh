@@ -1,4 +1,6 @@
+echo "git pull start";
 git pull origin master
+echo "git pull complete";
 
 preferenceDir="$HOME/Library/Preferences/IntelliJIdea14";
 pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
