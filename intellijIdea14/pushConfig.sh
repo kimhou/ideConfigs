@@ -5,13 +5,13 @@ pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
 gitPreferenceDir="./preferencesAll";
 gitPluginDir="./pluginAll";
 
-if [ -d ${preferenceDir} ]; then
-cp -r -f ${preferenceDir}/* ${gitPreferenceDir};
+if [ -d "${preferenceDir}" ]; then
+cp -r -f "${preferenceDir}"/* "${gitPreferenceDir}"/;
 fi
 
 
 if [ -d "${pluginDir}" ]; then
-cp -r -f "${gitPluginDir}"/* "${pluginDir}";
+cp -r -f "${gitPluginDir}"/* "${pluginDir}"/;
 fi
 
 git add .
