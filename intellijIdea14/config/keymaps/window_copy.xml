@@ -1,0 +1,112 @@
+<keymap version="1" name="window_copy" parent="$default">
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="alt 7" />
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control F4" />
+    <keyboard-shortcut first-keystroke="alt Q" />
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift control SUBTRACT" />
+    <keyboard-shortcut first-keystroke="shift control MINUS" />
+    <keyboard-shortcut first-keystroke="control NUMPAD0" />
+  </action>
+  <action id="EditorContextInfo" />
+  <action id="EditorSelectWord" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift control ADD" />
+    <keyboard-shortcut first-keystroke="shift control EQUALS" />
+    <keyboard-shortcut first-keystroke="control NUMPAD9" />
+  </action>
+  <action id="ExpandAllToLevel">
+    <keyboard-shortcut first-keystroke="control MULTIPLY" second-keystroke="MULTIPLY" />
+  </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="control NUMPAD1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="control NUMPAD2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="control NUMPAD3" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="control NUMPAD4" />
+  </action>
+  <action id="ExpandAllToLevel5">
+    <keyboard-shortcut first-keystroke="control NUMPAD5" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="control F12" />
+    <keyboard-shortcut first-keystroke="shift control L" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoFile" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="control G" />
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift control N" />
+  </action>
+  <action id="NewFile">
+    <keyboard-shortcut first-keystroke="control N" />
+  </action>
+  <action id="NewJavaScriptFile">
+    <keyboard-shortcut first-keystroke="alt N" />
+  </action>
+  <action id="NextTab" />
+  <action id="RecentChanges">
+    <keyboard-shortcut first-keystroke="shift alt C" />
+    <keyboard-shortcut first-keystroke="shift control P" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="control alt L" />
+    <keyboard-shortcut first-keystroke="control alt K" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="shift control alt O" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="shift control alt S" />
+    <keyboard-shortcut first-keystroke="shift control M" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="control alt S" />
+    <keyboard-shortcut first-keystroke="alt COMMA" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+</keymap>

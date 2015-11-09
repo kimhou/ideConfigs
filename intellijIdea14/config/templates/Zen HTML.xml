@@ -1,0 +1,7 @@
+<templateSet group="Zen HTML">
+  <template name="cmd" value="&lt;command&gt;" description="&lt;command&gt;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
