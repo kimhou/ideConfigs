@@ -1,7 +1,7 @@
 git pull origin master
 
-preferenceDir="~/Library/Preferences/IntelliJIdea14";
-pluginDir="~/Library/Application Support/IntelliJIdea14";
+preferenceDir="$HOME/Library/Preferences/IntelliJIdea14";
+pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
 gitPreferenceDir="./preferencesAll";
 gitPluginDir="./pluginAll";
 

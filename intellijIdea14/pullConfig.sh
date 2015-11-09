@@ -1,9 +1,9 @@
 git pull origin master
 
 date=`date "+%Y%m%d_%H%M%S"`
-preferenceDir="/Users/tencent/Library/Preferences/IntelliJIdea14";
+preferenceDir="$HOME/Library/Preferences/IntelliJIdea14";
 preferenceBackDir="${preferenceDir}_back_${date}";
-pluginDir="/Users/tencent/Library/Application Support/IntelliJIdea14";
+pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
 pluginBackDir="${pluginDir}_back_${date}";
 gitPreferenceDir="./preferencesAll";
 gitPluginDir="./pluginAll";
@@ -11,14 +11,17 @@ gitPluginDir="./pluginAll";
 echo "start";
 
 if [ ! -d ${preferenceDir} ]; then
-	mkdir ${preferenceDir};
+mkdir ${preferenceDir};
 fi
 
 echo "start copy preferences";
 
 mkdir ${preferenceBackDir}
 mv -f "${preferenceDir}"/* "${preferenceBackDir}";
-cp -r -f ${gitPreferenceDir}/* ${preferenceDir};
+if [ -f "${preferenceBackDir}"/idea14.key ]; then
+cp "${preferenceBackDir}"/idea14.key "${preferenceDir}"/
+fi
+cp -r -f "${gitPreferenceDir}"/* "${preferenceDir}"/;
 
 echo "preferences copy complete";
 
