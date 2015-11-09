@@ -1,7 +1,0 @@
-<templateSet group="JavaScript">
-  <template name="head" value="/**&#10; * @module $module$&#10; * @description {des}&#10; * @author kimhou $date$&#10; */&#10; $END$" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="module" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <variable name="date" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
-</templateSet>
