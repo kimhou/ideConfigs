@@ -1,0 +1,33 @@
+<templateSet group="JavaScript">
+  <template name="/**" value="/**&#10; * @description $des$&#10; * @module $fileName$&#10; * @author kimhou create on $date$&#10; */" shortcut="ENTER" description="insert file note" toReformat="true" toShortenFQNames="true">
+    <variable name="des" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="fileName" expression="fileNameWithoutExtension()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="date" expression="date(&quot;yyyy-MM-dd HH:mm:ss&quot;)" defaultValue="&quot;--&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function($PARAM$) {&#10;  $END$&#10;}" description="Inserts function expression" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="/*" value="/**&#10; * @description $des$&#10; * @method $method$&#10; * @param $param$&#10; * @return $return$&#10; */" shortcut="ENTER" description="methord note" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="des" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="method" expression="jsMethodName()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="param" expression="methodParameters()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

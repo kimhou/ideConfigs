@@ -1,0 +1,8 @@
+<templateSet group="Zen CSS">
+  <template name="t:a" value="top:auto;" description="top:auto;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
