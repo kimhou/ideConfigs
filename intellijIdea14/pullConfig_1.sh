@@ -13,29 +13,32 @@ gitPluginDir="./plugins";
 echo "start";
 
 if [ ! -d ${preferenceDir} ]; then
-sudo mkdir ${preferenceDir};
+mkdir ${preferenceDir};
 fi
 
 echo "start copy preferences";
 
-sudo mkdir ${preferenceBackDir}
+mkdir ${preferenceBackDir}
 sudo mv -f "${preferenceDir}"/* "${preferenceBackDir}"/;
 if [ -f "${preferenceBackDir}"/idea14.key ]; then
 sudo cp "${preferenceBackDir}"/idea14.key "${preferenceDir}"/
 fi
 sudo cp -r -f "${gitPreferenceDir}"/* "${preferenceDir}"/;
+sudo chown -R `whoami` "${preferenceDir}"/*;
 
 echo "preferences copy complete";
 
 echo "start copy plugins"
 
 if [ ! -d "${pluginDir}" ]; then
-sudo mkdir "${pluginDir}";
+mkdir "${pluginDir}";
 fi
 
-sudo mkdir "${pluginBackDir}";
+mkdir "${pluginBackDir}";
 sudo mv -f "${pluginDir}"/* "${pluginBackDir}"/;
 sudo cp -r -f "${gitPluginDir}"/* "${pluginDir}"/;
+sudo chown -R `whoami` "${pluginDir}"/*;
+
 echo "plugins copy complete"
 
 echo "##############PULL FROM GIT COMPLITE##################"
