@@ -1,7 +1,14 @@
 <keymap version="1" name="kim_copy_macPro" parent="Mac OS X 10.5+">
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateMessagesToolWindow" />
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="Android.TraceViewSearch" />
@@ -9,10 +16,19 @@
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="CheckinProject" />
+  <action id="Console.Execute" />
   <action id="Console.TableResult.AddRow">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="Console.TableResult.SetNull" />
+  <action id="Diff.SelectedChange" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorChooseLookupItem" />
+  <action id="EditorEnter" />
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift ctrl j" />
     <keyboard-shortcut first-keystroke="shift alt j" />
@@ -34,18 +50,23 @@
     <keyboard-shortcut first-keystroke="meta alt 5" />
   </action>
   <action id="FileChooser.GotoModule" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.NewFolder" />
   <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="meta f12" />
-    <keyboard-shortcut first-keystroke="shift meta m" />
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="GuiDesigner.CreateComponent">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Images.Thumbnails.EnterAction" />
   <action id="Inline" />
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="shift meta n" />
@@ -60,6 +81,13 @@
     <keyboard-shortcut first-keystroke="meta alt n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="PropertyInspectorActions.EditValue" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift meta j" />
@@ -68,8 +96,7 @@
   <action id="Rerun" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowFilePath">
-    <keyboard-shortcut first-keystroke="meta alt f12" />
-    <keyboard-shortcut first-keystroke="shift meta alt o" />
+    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />

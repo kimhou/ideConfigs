@@ -4,8 +4,8 @@ echo "git pull complete";
 
 preferenceDir="$HOME/Library/Preferences/IntelliJIdea14";
 pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
-gitPreferenceDir="./preferencesAll";
-gitPluginDir="./pluginAll";
+gitPreferenceDir="./preferences";
+gitPluginDir="./plugins";
 
 if [ -d "${preferenceDir}" ]; then
 cp -r -f "${preferenceDir}"/* "${gitPreferenceDir}"/;

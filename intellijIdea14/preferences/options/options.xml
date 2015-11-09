@@ -12,7 +12,7 @@
     <property name="file.colors.enable.tests" value="2a3b2c" />
     <property name="Non-Project Files" value="494539" />
     <property name="Tests" value="2a3b2c" />
-    <property name="KEYMAP" value="File Path&#10;methods&#10;expand&#10;join&#10;structure" />
+    <property name="KEYMAP" value="file&#10;open&#10;todo&#10;Structure&#10;file structure" />
     <property name="FileStructurePopup.narrowDown" value="true" />
     <property name="FindSplitterProportion" value="0.25" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
