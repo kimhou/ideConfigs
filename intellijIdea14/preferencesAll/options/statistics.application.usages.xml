@@ -1,0 +1,47 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="front" values="svn" collectionTime="1446887221525" />
+      <project id="reactNativePro" values="Git" collectionTime="1446704737572" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="front" values="JSX Harmony" collectionTime="1446887221538" />
+      <project id="reactNativePro" values="JSX Harmony" collectionTime="1446704737925" />
+      <project id="example" values="DEFAULT" collectionTime="1446779442197" />
+    </group>
+    <group name="language-level">
+      <project id="front" values="JDK_1_6" collectionTime="1446887221538" />
+      <project id="reactNativePro" values="JDK_1_6" collectionTime="1446704737676" />
+      <project id="example" values="JDK_1_6" collectionTime="1446779442194" />
+    </group>
+    <group name="svn working copy format">
+      <project id="front" values="1.7" collectionTime="1446887221538" />
+    </group>
+    <group name="file-type">
+      <project id="front" values="IDEA_MODULE,JSON,JavaScript,PLAIN_TEXT,UNKNOWN,Bash,EJS,XML,CSS,Images,MultiMarkdown" collectionTime="1446887221537" />
+      <project id="reactNativePro" values="Groovy,TypeScript,JAVA,PLAIN_TEXT,JSON,CSS,UNKNOWN,JSCS,HTML,EJS,Properties,XML,Bash,CoffeeScript,ProGuard File,JavaScript,ARCHIVE,PATCH,SourceMap,ESLint,Images,C++,JSHint,MultiMarkdown,IDEA_MODULE,YAML" collectionTime="1446704737663" />
+      <project id="example" values="CoffeeScript,IDEA_MODULE,Bash,YAML,HTML,PLAIN_TEXT,XML,JSON,MultiMarkdown,SourceMap,Images,C++,ESLint,JSCS,PATCH,UNKNOWN,CSS,JavaScript,JSHint" collectionTime="1446779442188" />
+    </group>
+    <group name="module type">
+      <project id="front" values="JAVA_MODULE" collectionTime="1446887221525" />
+      <project id="reactNativePro" values="JAVA_MODULE" collectionTime="1446704737572" />
+      <project id="example" values="JAVA_MODULE" collectionTime="1446779442178" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="front" values="Project,Project,Project" collectionTime="1446887221538" />
+      <project id="reactNativePro" values="Project,Project,Project" collectionTime="1446704737925" />
+      <project id="example" values="Project,Project" collectionTime="1446779442197" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="12" />
+      <entry feature="ide.settings.Font" count="3" />
+      <entry feature="ide.settings.Intentions" count="1" />
+      <entry feature="ideaapp.started" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+    </counts>
+  </component>
+</application>

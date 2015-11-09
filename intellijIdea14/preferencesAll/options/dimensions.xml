@@ -1,0 +1,83 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="960" y="538" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="678" y="375" />
+    <location key="SettingsEditor.0.0.1920.1080" x="115" y="297" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1080" x="707" y="354" />
+    <location key="StructurePopup.0.0.1920.1080" x="733" y="318" />
+    <location key="#com.intellij.structuralsearch.plugin.ui.SearchDialog.0.0.1920.1080" x="600" y="313" />
+    <location key="#com.intellij.structuralsearch.plugin.replace.ui.ReplaceDialog.0.0.1920.1080" x="600" y="241" />
+    <location key="#Servers.0.0.1920.1080" x="674" y="276" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="722" y="396" />
+    <location key="CommitChangelistDialog2.0.0.1920.1080" x="0" y="23" />
+    <location key="findTextDialog.0.0.1920.1080" x="754" y="306" />
+    <location key="DiffContextDialog.0.0.1920.1080" x="0" y="23" />
+    <location key="VCS.ChangeListViewerDialog.0.0.1920.1080" x="748" y="257" />
+    <location key="svn.passwordDialog.0.0.1920.1080" x="713" y="444" />
+    <location key="#Browse_JetBrains_Plugins_.0.0.1920.1080" x="659" y="192" />
+    <location key="FileDocumentManager.FileCacheConflict.0.0.1920.1080" x="0" y="0" />
+    <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.0.0.1920.1080" x="805" y="394" />
+    <location key="RollbackChangesDialog.0.0.1920.1080" x="421" y="146" />
+    <location key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.0.0.1920.1080" x="876" y="404" />
+    <location key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog.0.0.1920.1080" x="604" y="283" />
+    <location key="#com.intellij.ide.actions.ChooseComponentsToExportDialog.0.0.1920.1080" x="710" y="425" />
+    <location key="VCS.ChangelistChooser.0.0.1920.1080" x="783" y="389" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1920.1080" x="100" y="123" />
+    <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1920.1080" x="719" y="364" />
+    <location key="#Node.js_and_NPM.0.0.1920.1080" x="699" y="331" />
+    <location key="OptionsEditor.0.0.1920.1080" x="406" y="127" />
+    <location key="MultipleFileMergeDialog.0.0.1920.1080" x="659" y="295" />
+    <location key="replaceTextDialog.0.0.1920.1080" x="751" y="291" />
+    <location key="ReplaceDuplicatesPrompt.0.0.1920.1080" x="529" y="389" />
+    <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.0.0.1920.1080" x="512" y="308" />
+    <location key="RegExHelpPopup.0.0.1920.1080" x="573" y="323" />
+    <location key="DiffContextDialog.0.0.0.0" x="111" y="607" />
+    <location key="Subversion.BranchConfigurationDialog.0.0.1920.1080" x="716" y="401" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="620" y="180" />
+    <location key="#HTTP_Proxy.0.0.1920.1080" x="679" y="258" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="1435" y="780" />
+    <location key="NewPhpFileDialog.0.0.1920.1080" x="779" y="481" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.1920.1080" x="798" y="150" />
+    <location key="org.jetbrains.idea.perforce.application.P4ConfigConnectionDiagnoseDialog.0.0.1920.1080" x="425" y="405" />
+    <location key="SettingsEditor.0.0.1280.800" x="121" y="61" />
+    <location key="FileChooserDialogImpl.0.0.1280.800" x="427" y="146" />
+    <location key="IgnoreUnversionedDialog.0.0.1280.800" x="454" y="317" />
+    <location key="OptionsEditor.0.0.1280.800" x="128" y="23" />
+    <location key="CommitChangelistDialog2.0.0.1280.800" x="0" y="23" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1280.800" x="402" y="256" />
+    <location key="svn.passwordDialog.0.0.1280.800" x="332" y="313" />
+    <location key="WELCOME_SCREEN.0.0.1280.800" x="640" y="386" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1280.0.1920.1200" x="2002" y="456" />
+    <location key="DiffContextDialog.1280.0.1920.1200" x="1401" y="31" />
+    <location key="VCS.ChangelistChooser.1280.0.1920.1200" x="2063" y="449" />
+    <location key="VCS.ChangeListViewerDialog.1280.0.1920.1200" x="2028" y="327" />
+    <location key="CommitChangelistDialog2.1280.0.1920.1200" x="1280" y="23" />
+    <location key="findTextDialog.1280.0.1920.1200" x="2034" y="376" />
+    <location key="SettingsEditor.0.0.1920.1200" x="441" y="262" />
+    <location key="com.intellij.openapi.vcs.actions.ShowMessageHistoryAction$1.0.0.1920.1200" x="875" y="455" />
+    <location key="CommitChangelistDialog2.0.0.1920.1200" x="0" y="0" />
+    <location key="DiffContextDialog.0.0.1920.1200" x="100" y="100" />
+    <size key="StructurePopup.0.0.1920.1080" width="454" height="441" />
+    <size key="#com.intellij.structuralsearch.plugin.replace.ui.ReplaceDialog.0.0.1920.1080" width="922" height="616" />
+    <size key="DiffContextDialog.0.0.1920.1080" width="1920" height="1053" />
+    <size key="CommitChangelistDialog2.0.0.1920.1080" width="1920" height="1053" />
+    <size key="VCS.ChangeListViewerDialog.0.0.1920.1080" width="743" height="565" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1620" height="676" />
+    <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1920.1080" width="1720" height="853" />
+    <size key="RegExHelpPopup.0.0.1920.1080" width="600" height="319" />
+    <size key="DiffContextDialog.0.0.0.0" width="1920" height="1053" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="259" height="175" />
+    <size key="findTextDialog.0.0.1920.1080" width="417" height="517" />
+    <size key="CommitChangelistDialog2.0.0.1280.800" width="1280" height="773" />
+    <size key="DiffContextDialog.1280.0.1920.1200" width="1720" height="973" />
+    <size key="CommitChangelistDialog2.1280.0.1920.1200" width="1920" height="1173" />
+    <size key="DiffContextDialog.0.0.1920.1200" width="1720" height="1000" />
+    <size key="CommitChangelistDialog2.0.0.1920.1200" width="1920" height="1196" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
+    <extendedState key="CommittedChanges.SplitterProportions.0" state="700" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
+    <extendedState key="DiffContextDialog" state="0" />
+    <extendedState key="CommittedChanges.SplitterProportions.1" state="500" />
+    <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
+  </component>
+</application>
