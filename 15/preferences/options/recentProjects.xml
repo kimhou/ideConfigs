@@ -1,0 +1,32 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/TencentWork/SVN/tdsql/trunk/front" />
+        <option value="$USER_HOME$/Documents/Gulp+React前端自动化合并方案/example" />
+        <option value="$USER_HOME$/myGitsource/reactNativePro" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/TencentWork/SVN/tdsql/trunk/front" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/TencentWork/SVN/tdsql/trunk/front" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/TencentWork/SVN/tdsql/trunk/front">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-143.381" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1447079592641" />
+              <option name="buildTimestamp" value="1446134400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+BashSupport
+com.jetbrains.lang.ejs
+com.thoughtworks.gauge
+com.vladsch.idea.multimarkdown
+NodeJS
+com.jetbrains.php

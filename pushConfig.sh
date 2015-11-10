@@ -2,7 +2,7 @@ echo "git pull start";
 git pull origin master
 echo "git pull complete";
 version=$1;
-if[ "${version}x" == "x" ]; then
+if [ "${version}x" = "x" ]; then
 version=15;
 fi
 

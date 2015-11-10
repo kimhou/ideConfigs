@@ -1,0 +1,18 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <knownUpdateChannels>
+      <item value="IDEA12" />
+      <item value="IDEA13.1" />
+      <item value="IDEA_14_EAP" />
+      <item value="IDEA14.1" />
+      <item value="IDEA_14_1_EAP" />
+      <item value="IDEA_15_EAP" />
+      <item value="IDEA_Beta" />
+      <item value="IDEA_Release" />
+    </knownUpdateChannels>
+    <option name="CHECK_NEEDED" value="false" />
+    <option name="LAST_TIME_CHECKED" value="1447071110361" />
+    <option name="LAST_BUILD_CHECKED" value="IU-141.2735" />
+    <option name="SECURE_CONNECTION" value="false" />
+  </component>
+</application>
