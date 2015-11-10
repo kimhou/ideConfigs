@@ -2,13 +2,18 @@ echo "start git pull";
 git pull origin master
 echo "git pull complete";
 
+version=$1;
+if[ "${version}x" == "x" ]; then
+version=15;
+fi
+
 date=`date "+%Y%m%d_%H%M%S"`
-preferenceDir="$HOME/Library/Preferences/IntelliJIdea14";
+preferenceDir="$HOME/Library/Preferences/IntelliJIdea${version}";
 preferenceBackDir="${preferenceDir}_back_${date}";
-pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
+pluginDir="$HOME/Library/Application Support/IntelliJIdea${version}";
 pluginBackDir="${pluginDir}_back_${date}";
-gitPreferenceDir="./preferences";
-gitPluginDir="./plugins";
+gitPreferenceDir="./${version}/preferences";
+gitPluginDir="./${version}/plugins";
 
 echo "start";
 
@@ -20,8 +25,8 @@ echo "start copy preferences";
 
 mkdir ${preferenceBackDir}
 sudo mv -f "${preferenceDir}"/* "${preferenceBackDir}"/;
-if [ -f "${preferenceBackDir}"/idea14.key ]; then
-sudo cp -r -f "${preferenceBackDir}"/idea14.key "${preferenceDir}"/
+if [ -f "${preferenceBackDir}"/idea${version}.key ]; then
+sudo cp -r -f "${preferenceBackDir}"/idea${version}.key "${preferenceDir}"/
 fi
 sudo cp -r -f "${gitPreferenceDir}"/* "${preferenceDir}"/;
 sudo chown -R `whoami` "${preferenceDir}"/*;

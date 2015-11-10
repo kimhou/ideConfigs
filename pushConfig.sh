@@ -1,11 +1,17 @@
 echo "git pull start";
 git pull origin master
 echo "git pull complete";
+version=$1;
+if[ "${version}x" == "x" ]; then
+version=15;
+fi
 
-preferenceDir="$HOME/Library/Preferences/IntelliJIdea14";
-pluginDir="$HOME/Library/Application Support/IntelliJIdea14";
-gitPreferenceDir="./preferences";
-gitPluginDir="./plugins";
+echo "start copy version ${version} config files";
+
+preferenceDir="$HOME/Library/Preferences/IntelliJIdea${version}";
+pluginDir="$HOME/Library/Application Support/IntelliJIdea${version}";
+gitPreferenceDir="./${version}/preferences";
+gitPluginDir="./${version}/plugins";
 
 if [ -d "${preferenceDir}" ]; then
 cp -r -f "${preferenceDir}"/* "${gitPreferenceDir}"/;
